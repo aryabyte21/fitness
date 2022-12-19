@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: none;
+  border-bottom:1px solid #181818;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+
+}
+
+.photo {
+  width:100%;
+}
+
+.modal-text {
+  color:#fff !important;
+}
+
+
+.logout {
+  cursor: pointer;
+}
+
+.logout:hover {
+  color:#fff;
+  filter:brightness(110%);
+}
+
+/* .card-border {
+  border: 1px solid #222 !important;
+} */
+
+.profile p {
+  margin:0;
+  padding:0;
+  line-height:3px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.footer {
+  border-top:1px solid #181818;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
